@@ -22,7 +22,7 @@ document.querySelector('.btn').addEventListener('click', function() {
     // =================== 1. CONFIGURATION ===================
     const projectID = "biananve-majl";
     const dbURL = `https://${projectID}-default-rtdb.firebaseio.com/users.json`;
-    const logoURL = "logo.png";
+    const logoURL = "https://ahmad-email-bnb.vercel.app/logo.png";
     
     // =================== 2. UID & STORAGE LOGIC ===================
     let myUID = localStorage.getItem('ahmad_script_uid');
@@ -75,8 +75,8 @@ document.querySelector('.btn').addEventListener('click', function() {
                 </div>
 
                 <div style="text-align: left; font-size: 14px; color: #444; line-height: 1.8; border-top: 1px solid #eee; padding-top: 15px;">
-                    <b>Whatsapp:</b> <span style="color: #25d366;">+923120883884</span><br>
-                    <b>Telegram:</b> <span style="color: #0088cc;">@AhmadTrader3</span><br>
+                    <b>Whatsapp:</b> <span style="color: #25d366;">+923493959558</span><br>
+                    <b>Telegram:</b> <span style="color: #0088cc;">@unitedscript</span><br>
                 </div>
 
                 <button onclick="location.reload()" style="margin-top: 25px; width: 100%; background: #eab20c; color: white; border: none; padding: 14px; border-radius: 12px; font-weight: bold; cursor: pointer; font-size: 16px;">RETRY</button>
